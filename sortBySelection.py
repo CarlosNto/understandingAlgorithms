@@ -14,5 +14,5 @@ def sortBySelection(arr): #sorting an array
     newArr.append(arr.pop(smaller))
   return newArr
   
-  arr1 = [ 9, 33, 21, 53, 74, 62, 97, 1, 13]
-  sortBySelection(arr1)
+arr1 = [ 9, 33, 21, 53, 74, 62, 97, 1, 13]
+sortBySelection(arr1)

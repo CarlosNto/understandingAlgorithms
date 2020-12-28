@@ -1,4 +1,4 @@
-def searchSmaller(arr):
+def searchSmaller(arr): #firtly, it's necessary to create a function in order to find the smallest element in the array
   smaller = arr[0] #keeps the smallest index
   smaller_index = 0 #keeps the index of the smallest value
   for i in range(1, len(arr)):
